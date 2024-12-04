@@ -4,7 +4,7 @@
 
 list1 = []
 list2 = []
-distancelist = []
+distList = []
 count = 0
 
 # Read file
@@ -28,10 +28,14 @@ for line in file:
 list1.sort()
 list2.sort()
 # TODO: Find distance between each list input (larger - smaller = distance)
-
-## TODO: Put distances into new list
+for i in count:
+    dist = distCalc(list1[i], list2[i])
+    ## TODO: Put distances into new list
+    distList.append(dist)
 
 ## TODO: Find and print Sum of distances list
+sum = sum(distList)
+print(f"The total distance between lists is ", sum)
 
 
 # Part 2
