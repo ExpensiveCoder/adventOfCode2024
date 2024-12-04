@@ -5,6 +5,7 @@
 list1 = []
 list2 = []
 distancelist = []
+count = 0
 
 # Read file
 file = open("data/day1.txt", "r")
@@ -22,6 +23,7 @@ for line in file:
     parts = line.split()
     list1.append([int(parts[0])])
     list2.append([int(parts[1])])
+    count += 1
 # Sort lists from smallest to largest
 list1.sort()
 list2.sort()
