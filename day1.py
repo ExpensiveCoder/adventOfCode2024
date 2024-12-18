@@ -33,4 +33,9 @@ for i in range(0, len(list1)):
 
 print(f"The sum of the distances is ", dis)
 
-# Part 2
+# Part 2 - Similarity Score
+
+# Look at first list and compare to entire second list and calculate times it appear.
+# Multiply appearances by the number
+
+# Dictionary to keep each number and times it appears (Dynamic Programming Approach)
